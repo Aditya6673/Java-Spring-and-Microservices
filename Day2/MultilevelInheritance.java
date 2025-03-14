@@ -10,13 +10,14 @@ class FourWheeler extends Vehicle {
         System.out.println("4 Wheeler Vehicles");
     }
 }
-class Car extends FourWheeler {
-    Car() {
+class Car1 extends FourWheeler {
+    Car1() {
         System.out.println("This 4 Wheeler Vehicle is a Car");
     }
 }
 public class MultilevelInheritance {
     public static void main(String[] args) {
-        Car obj = new Car(); // Triggers all constructors in order
+        Car1 obj = new Car1(); // Triggers all constructors in order
+        System.out.println("This is an example of Multilevel Inheritance in Java."+obj);
     }
 }
