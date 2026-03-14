@@ -5,6 +5,7 @@ package Day2;
 interface MyFunctionalInterface {
     int add(int a, int b); // Abstract method
 }
+
 public class Functional_Interface {
     public static void main(String[] args) {
         // Using a lambda expression to implement the functional interface

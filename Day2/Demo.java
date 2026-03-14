@@ -16,5 +16,6 @@ public class Demo {
         Computer comp = new Computer();
         comp.playMusic();
         System.out.println(comp.getMeAPen(15));
+        new Computer().playMusic(); // Anonymous object
     }
 }
