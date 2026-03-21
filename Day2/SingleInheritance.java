@@ -17,6 +17,5 @@ public class SingleInheritance {
     public static void main(String[] args) {
         // Creating object of subclass invokes base class constructor
         Car obj = new Car();
-        System.out.println("This is an example of Single Inheritance in Java."+obj);
     }
 }

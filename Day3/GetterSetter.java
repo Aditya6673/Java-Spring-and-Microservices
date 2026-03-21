@@ -1,7 +1,7 @@
-class Boy{
+class Student{
     private String name;
     private int age;
-    Boy(String name, int age){
+    Student(String name, int age){
         this.name = name;
         this.age = age;
     }
@@ -20,12 +20,12 @@ class Boy{
 }
 public class GetterSetter {
     public static void main(String[] args) {
-        Boy b = new Boy("Alice", 20);
-        System.out.println(b.getName());
-        System.out.println(b.getAge());
-        b.setName("Bob");
-        b.setAge(22);
-        System.out.println(b.getName());
-        System.out.println(b.getAge());
+        Student s = new Student("Alice", 20);
+        System.out.println(s.getName());
+        System.out.println(s.getAge());
+        s.setName("Bob");
+        s.setAge(22);
+        System.out.println(s.getName());
+        System.out.println(s.getAge());
     }
 }

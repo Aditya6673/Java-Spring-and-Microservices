@@ -6,9 +6,6 @@ class MyClass {
     protected int protectedVar = 20; // Accessible within the same package and subclasses
     int defaultVar = 30; // Accessible within the same package (default access)
     private int privateVar = 40; // Accessible only within this class
-    MyClass() {
-        System.out.println("This is a class with different access modifiers.");
-    }
 }
 public class AccessModifier {
     public static void main(String[] args) {

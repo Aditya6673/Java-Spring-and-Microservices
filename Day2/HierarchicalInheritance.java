@@ -1,18 +1,18 @@
 package Day2;
 
-class Vehicle1 {
-    Vehicle1() {
+class Vehicle {
+    Vehicle() {
         System.out.println("This is a Vehicle");
     }
 }
 
-class Jeep extends Vehicle1 {
-    Jeep() {
-        System.out.println("This Vehicle is Jeep");
+class Car extends Vehicle {
+    Car() {
+        System.out.println("This Vehicle is Car");
     }
 }
 
-class Bus extends Vehicle1 {
+class Bus extends Vehicle {
     Bus() {
         System.out.println("This Vehicle is Bus");
     }
@@ -20,8 +20,7 @@ class Bus extends Vehicle1 {
 
 public class HierarchicalInheritance {
     public static void main(String[] args) {
-        Jeep obj1 = new Jeep(); 
-        Bus obj2 = new Bus();
-        System.out.println("This is an example of Hierarchical Inheritance in Java."+obj1+obj2); 
+        Car obj1 = new Car(); 
+        Bus obj2 = new Bus(); 
     }
 }
