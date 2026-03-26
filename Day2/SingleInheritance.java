@@ -1,14 +1,14 @@
 package Day2;
 
 //Super class
-class Vehicle {
-    Vehicle() {
+class Vehicle1 {
+    Vehicle1() {
         System.out.println("This is a Vehicle");
     }
 }
 
 // Subclass 
-class Car extends Vehicle {
+class Car extends Vehicle1 {
     Car() {
         System.out.println("This Vehicle is Car");
     }
