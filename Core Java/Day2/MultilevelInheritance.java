@@ -1,4 +1,3 @@
-package Day2;
 
 class Vehicle {
     Vehicle() {

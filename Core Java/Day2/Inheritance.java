@@ -1,4 +1,4 @@
-package Day2;
+
 // Parent class
 class Animal {
     void sound() {

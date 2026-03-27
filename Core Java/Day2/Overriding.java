@@ -1,4 +1,4 @@
-package Day2;
+
 
 // Class 1
 // Helper class

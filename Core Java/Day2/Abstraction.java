@@ -1,4 +1,3 @@
-package Day2;
 
 interface InnerAbstraction {
     abstract void area(); // Abstract method

@@ -1,4 +1,3 @@
-package Day2;
 
 interface LandVehicle {
     default void landInfo() {

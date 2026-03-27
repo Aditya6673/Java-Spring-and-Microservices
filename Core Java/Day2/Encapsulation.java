@@ -1,4 +1,3 @@
-package Day2;
 
 // Encapsulation is the concept of wrapping data (variables) and methods (functions) together as a single unit.
 // It helps to protect the data from outside interference and misuse.

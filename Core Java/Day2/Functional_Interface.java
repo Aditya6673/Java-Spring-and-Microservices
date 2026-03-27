@@ -1,4 +1,3 @@
-package Day2;
 
 // Functional Interface with a single abstract method
 @FunctionalInterface

@@ -1,4 +1,4 @@
-package Day2;
+
 
 class Calculator {
     int num = 42; // Instance variable (field)

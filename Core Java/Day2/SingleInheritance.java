@@ -1,4 +1,3 @@
-package Day2;
 
 //Super class
 class Vehicle1 {

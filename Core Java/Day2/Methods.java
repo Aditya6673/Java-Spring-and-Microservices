@@ -1,4 +1,3 @@
-package Day2;
 
 class demo {
     // Method to print a greeting message
